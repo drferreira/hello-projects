@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:view>
+    <h:head>
+        <h:outputStylesheet name="style.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel value="Hello, world Collaborative WhiteBoard"/>
+
+        <p:spacer height="50"/>
+
+        <div id="centralContainer">
+            <h:panelGrid columns="3">
+                <p:panel id="toDoContainer" header="To do">
+                    <h:column>
+                        <p:panel id="taskOne" header="Task One">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskOne" grid="365,100"/>
+
+                        <p:panel id="taskTwo" header="Task Two">
+                            <h:outputText value="I am dragged in grid mode" />
+                        </p:panel>
+                        <p:draggable for="taskTwo" grid="365,100"/>
+
+                        <p:panel id="taskTree" header="Task Tree">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskTree" grid="365,100"/>
+                    </h:column>
+                </p:panel>
+
+                <p:panel id="inProgressContainer" header="In progress">
+                    <h:column>
+                        <p:panel id="taskFour" header="Task Four">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskFour" grid="365,100"/>
+
+                        <p:panel id="taskFive" header="Task Five">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskFive" grid="365,100"/>
+
+                        <p:panel id="taskSix" header="Task Six">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskSix" grid="365,100"/>
+                    </h:column>
+                </p:panel>
+
+                <p:panel id="finalizedContainer" header="Finalized">
+                    <h:column>
+                        <p:panel id="taskSeven" header="Task Seven">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskSeven" grid="365,100"/>
+
+                        <p:panel id="taskEight" header="Task Eight">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskEight" grid="365,100"/>
+
+                        <p:panel id="taskNine" header="Task Nine">
+                            <h:outputText value="I am dragged in grid mode"/>
+                        </p:panel>
+                        <p:draggable for="taskNine" grid="365,100" />
+                    </h:column>
+                </p:panel>
+            </h:panelGrid>
+        </div>
+    </h:body>
+
+</f:view>
+</html>

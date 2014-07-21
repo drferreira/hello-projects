@@ -1,6 +1,9 @@
-*.class
+/*/target/
+/*/.settings
+/*/.project
+/*/.classpath
+*.jsfdia
+*.metadata
+**/.idea
+/*/*.iml
 
-# Package Files #
-*.jar
-*.war
-*.ear

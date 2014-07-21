@@ -1,7 +1,7 @@
 hello-projects
 ==============
 
-Criadores: Diego Santos / Diogo Ferreira
+Criadores: Diogo Ferreira
 
 
 Resumo: Projeto tutorial para aplicação de segurança, JAAS, em projeto web.

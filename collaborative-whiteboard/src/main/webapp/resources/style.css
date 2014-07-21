@@ -1,0 +1,24 @@
+#toDoContainer{
+    height: 700px;
+    width: 350px;
+}
+
+#inProgressContainer{
+    height: 700px;
+    width: 350px;
+}
+
+#finalizedContainer{
+    height: 700px;
+    width: 350px;
+}
+
+#centralContainer{
+    width: 1050px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}
